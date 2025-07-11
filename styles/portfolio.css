@@ -18,12 +18,16 @@
 
 
 .raleway-normal {
-  font-fami    ly: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 
+}
+
+.edit{
+    list-style: none;
 }
 
 .banner-content{
@@ -37,15 +41,16 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    line-height: auto;
-    width: 905px;
+    margin: 0px auto;
+    
 
 }
-
+body header div{
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    cursor: pointer;
+}
 /* shared style */
 .text-primary{
     color: #4E47FF;
@@ -64,6 +69,7 @@
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;n
 
 }
   
@@ -82,3 +88,87 @@ nav{
 nav ul li {
     list-style: none;
 }
+
+.section-title{
+
+}
+
+ ul li{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+
+}
+div p{
+    font-size: 65px;
+    width: 905px;
+}
+/* main styles */
+header{
+    max width: 1140px;
+    margin: 0 auto;
+
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 0 px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    
+
+}
+.card h3 {
+    font-size: 24px;
+
+    margin-bottom: 10px;
+}
+
+.card p{
+    color: #252432;
+    margin-bottom: 15px;
+
+}
+.card button{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+main div p{
+    font-size: 24px;
+    color: #252432;
+    width: 517px;
+}
+
+
+header div p{
+    width: 917px;
+    align-items: center;
+}
+
+main{
+    
+    max-width: 141px 414px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.image{
+width: 403px 328px;
+border-radius: 48px;
+
+}
+
+.section-title{}
