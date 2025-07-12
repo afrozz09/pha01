@@ -34,6 +34,7 @@
   font-variation-settings:
     "wdth" 100;
     
+    
 
 
 }
@@ -48,7 +49,11 @@
 
 .header{
     background-image:url(../Assets/Hero-bg.png) ;
-    max-width: 698px 1440px ;
+    width: 1140px ;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+
 }
 .text-primary{
     color: #4E47FF;
@@ -104,4 +109,70 @@ body header nav{
 body ul{
     display: flex;
     justify-content: center;
+    
+}
+
+
+/* main styles */
+
+
+main sectborder-radius: 0 px;
+    padding: 20px;ion{
+    
+    align-items: center;
+}
+.card{
+    justify-content: left;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+.see-it{
+    font-size: 42;
+    font-weight: bold;
+    margin: 0px auto;
+    padding: 0px;
+    height: 100%;
+    width: 517px;
+}
+
+.explore{
+    margin: 0px auto;
+    padding: 0px;
+    height: 100%;
+    width: 517px;
+    font-size: 24px;
+    font-weight: 250;
+    line-height: auto;
+    margin: 23px 0px;
+}
+.image{
+    width: 403px;
+    border-radius: 48px;
+
+}
+
+main section nav{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 328px 1140px;
+    margin: 116px 159px 127px 140px;
+
+}
+
+.raleway-semibold{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: auto;
+    width: 517px;
+}
+           
+.section-1{
+    display: flex;
+    align-items: center;
 }
