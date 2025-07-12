@@ -194,7 +194,7 @@ main section nav{
     font-size: 38px;
     margin-bottom: 30px;
     font-weight: bold;
-    color:#4E47FF;
+    color:#a39be9;
 }
 
 .items{
@@ -226,3 +226,84 @@ font-family: "Inter", sans-serif;
 
 }
 
+.what-the-users-say{
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.img-flex{
+    margin: 24px 227px 24px 24px;
+}
+
+.review-title{
+    margin: 0px;
+
+}
+
+.review{
+    background-color: FFFFFF;
+    margin: 10px 20px;
+
+    
+}
+
+.reviews{
+    font-size: 16px;
+    margin: 12px 0px;
+    padding: 0px;
+    height: 100%;
+    line-height: normal;
+    font-weight: 450;
+}
+
+.padding24{
+    margin: 0px 24px 24px 24px;
+    width: 319px;
+
+}
+
+.round-shape{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px;
+    
+}
+
+.
+.details{
+
+}
+.name{
+color: #757575;
+font-size: 12px;
+margin: 0px;
+}
+.date{
+color: #B3B3B3;
+font-size: 10px;
+margin: 4px 0px 0px 0px;
+}
+.reviwer-info{
+    display: flex;
+    align-items: center;
+}
+
+.section-title{
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 0px;
+    height: 100%;
+    width: 905px;
+    margin-top: 126px;
+}
