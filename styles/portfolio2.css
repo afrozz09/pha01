@@ -180,7 +180,7 @@ main section nav{
 
 .section-edit{
     text-align: center;
-    background-color: hwb(223 76% 3% / 0.753);
+    background-color: hwb(223 84% 13% / 0.753);
     padding: 50px 80px;
     max-width: 800px;
     border-radius: 10px;
@@ -194,7 +194,7 @@ main section nav{
     font-size: 38px;
     margin-bottom: 30px;
     font-weight: bold;
-    color:#a39be9;
+    color:#000000;
 }
 
 .items{
@@ -234,6 +234,9 @@ font-family: "Inter", sans-serif;
     "wdth" 100;
     font-size: 42px;
     font-weight: bold;
+    margin: 126px 150px 0px 150px;
+   
+    
 }
 
 .img-flex{
@@ -246,10 +249,14 @@ font-family: "Inter", sans-serif;
 }
 
 .review{
-    background-color: FFFFFF;
-    margin: 10px 20px;
-
-    
+    background-color: #f9f7f7;
+    /* margin: 10px 20px; */
+    /* margin: 0px; */
+    display: flex;
+    align-items:center;
+    /* justify-content: space-around; */
+    max-width: 500px;
+    margin: 0px auto; 
 }
 
 .reviews{
@@ -262,8 +269,8 @@ font-family: "Inter", sans-serif;
 }
 
 .padding24{
-    margin: 0px 24px 24px 24px;
-    width: 319px;
+    margin: 0px 24px 24px 0px;
+    width: 319px; 
 
 }
 
@@ -271,7 +278,7 @@ font-family: "Inter", sans-serif;
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    margin: 10px;
+    margin: 10px 10px 10px 0px;
     
 }
 
@@ -296,9 +303,7 @@ margin: 4px 0px 0px 0px;
 
 .section-title{
     display: flex;
-    align-items: center;
     margin: 0px auto;
-    display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px auto;
@@ -307,3 +312,13 @@ margin: 4px 0px 0px 0px;
     width: 905px;
     margin-top: 126px;
 }
+
+.cards{
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
