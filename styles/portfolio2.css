@@ -112,6 +112,31 @@ body ul{
     
 }
 
+.btn-stay{
+     background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    margin-bottom: 150px;
+    
+    
+
+
+}
+.btn-stay:hover{
+    background-color: rgb(69, 56, 179);
+}
+
+
 
 /* main styles */
 
@@ -474,4 +499,45 @@ main section nav div div div div ul li{
 
 
 
+.logo-last{
 
+       color: #4E47FF;
+    font-size: 100px ;
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto; 
+  font-style: normal;
+   font-variation-settings:"wdth" 100;
+   margin: 0px auto;
+   font-weight: bolder;
+   
+
+}
+
+.last-p{
+color: #8987A1;
+font-size: 19px;
+font-weight: 300;
+max-width: 531px;
+}
+
+.last-div{
+    color: #8987A1;
+    font-size: 19px;
+font-weight: 300;
+display: flex;
+justify-content: space-around; 
+max-width: 480px;
+}
+
+.footer{
+    max-width: 1140px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.to-center{
+    align-items: center;
+   
+}
